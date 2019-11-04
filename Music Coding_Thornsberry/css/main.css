@@ -203,11 +203,10 @@ h2{
     table{
       width: 80%;
       border: none;
+      border-collapse: collapse;
+    }
 
-    }
-    tr{
-      padding: 8px;
-    }
+
     td{
        padding: 8px;
        font-size: 16px;
@@ -232,9 +231,12 @@ h2{
     .ablum_reviews{
       width: 90%;
       display: flex;
-      align-items: right;
+      justify-content: center;
+      align-items: center;
       margin: 0 auto;
       flex-direction: column;
+      position: relative;
+      margin-bottom: 15px;
     }
 
     .shopping h2{
@@ -248,14 +250,38 @@ h2{
     .shopping{
       width: 90%;
       display: flex;
-      align-items: left;
+      justify-content: center;
+      align-items: center;
       margin: 0 auto;
       flex-direction: column;
+      position: relative;
+      margin-bottom: 15px;
     }
 
     table{
     border: 0px !important;
     }
+
+    .albums{
+      width: 400px;
+      height: 400px;
+    }
+
+    .albums img{
+      width: 400px;
+      height: auto;
+    }
+
+    .leftside{
+      position: relative;
+      left: 400px;
+    }
+
+    .rightside{
+      position: relative;
+      right: 400px;
+    }
+
 
 
 
