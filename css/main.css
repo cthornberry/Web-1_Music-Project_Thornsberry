@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+ /*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
@@ -97,6 +97,233 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+body{
+  font-family: 'Actor', sans-serif;
+}
+
+
+h2{
+  background-color: #E6EB12;
+  padding: 5px;
+}
+
+.logicshadow{
+  box-shadow: 15px 15px rgba(142,220,254,1);
+}
+
+.logicshadow2{
+  box-shadow: -15px -15px rgba(142,220,254,1);
+}
+
+.logicshadow3{
+  box-shadow: 25px -30px rgba(142,220,254,1);
+}
+
+
+   .hero{
+     height: 100vh;
+     width: 100%;
+     background-color: #E6EB12;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .hero h1{
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 900 !important;
+     font-size: 200px;
+     color: #000;
+   }
+
+   .links{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 auto;
+   }
+
+   .logicavatar{
+   }
+
+   .linksbox{
+     width: 90%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 0 auto;
+
+   }
+
+   .linksbox a{
+     padding: 1%;
+     font-size: 30px;
+     color: #000;
+     text-decoration: none;
+     background-color: #E6EB12;
+     padding: 5px;
+     margin: 3%;
+   }
+
+   .logicavatar img{
+     	border-radius: 50%;
+      width: 395px;
+      height: 415px;
+       margin: 5% 0 5% 0;
+   }
+
+   .about{
+     width: 90%;
+     display: flex;
+     align-items: right;
+     margin: 0 auto;
+     flex-direction: column;
+   }
+
+    .about h2{
+      font-family: 'Actor', Regular;
+      font-size: 70px
+      color:#000;
+      text-align: right;
+    }
+
+    .music h2{
+      font-family: 'Actor', Regular;
+      font-size: 70px
+      color:#000;
+      text-align: left;
+
+    }
+
+    .music{
+      width: 90%;
+      display: flex;
+      align-items: left;
+      margin: 0 auto;
+      flex-direction: column;
+    }
+
+    .record_lable h2{
+      font-family: 'Actor', Regular;
+      font-size: 70px
+      color:#000;
+      text-align: right;
+
+    }
+
+    .record_lable{
+      width: 90%;
+      display: flex;
+      align-items: right;
+      margin: 0 auto;
+      flex-direction: column;
+    }
+
+
+    .tours h2{
+      font-family: 'Actor', Regular;
+      font-size: 70px
+      color:#000;
+      text-align: left;
+
+    }
+
+    .tours{
+      width: 90%;
+      display: flex;
+      align-items: left;
+      margin: 0 auto;
+      flex-direction: column;
+    }
+
+    table{
+      width: 80%;
+      border: none;
+      border-collapse: collapse;
+    }
+
+
+    td{
+       padding: 8px;
+       font-size: 16px;
+       color: #000;
+       border: none;
+     }
+     .yellow_column{
+       background-color: #E6EB12;
+     }
+     .blue_column{
+       background-color: #8EDCFE;
+     }
+
+     .ablumreviews h2{
+      font-family: 'Actor', Regular;
+      font-size: 70px
+      color:#000;
+      text-align: right;
+
+    }
+
+    .ablum_reviews{
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      flex-direction: column;
+      position: relative;
+      margin-bottom: 15px;
+    }
+
+    .shopping h2{
+      font-family: 'Actor', Regular;
+      font-size: 70px
+      color:#000;
+      text-align: left;
+
+    }
+
+    .shopping{
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      flex-direction: column;
+      position: relative;
+      margin-bottom: 15px;
+    }
+
+    table{
+    border: 0px !important;
+    }
+
+    .albums{
+      width: 400px;
+      height: 400px;
+    }
+
+    .albums img{
+      width: 400px;
+      height: auto;
+    }
+
+    .leftside{
+      position: relative;
+      left: 400px;
+    }
+
+    .rightside{
+      position: relative;
+      right: 400px;
+    }
+
+
+
+
 
 /* ==========================================================================
    Helper classes
@@ -263,4 +490,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-

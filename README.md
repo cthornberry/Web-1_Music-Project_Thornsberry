@@ -1,2 +1,2 @@
-# Web-1_Music-Project_Thornsberry
-Coding Website
+# MusicProject1
+Round 2 Music Project
