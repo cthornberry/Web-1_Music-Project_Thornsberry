@@ -120,6 +120,18 @@ h2{
   box-shadow: 25px -30px rgba(142,220,254,1);
 }
 
+.left{
+  position: absolute;
+  left: 0px;
+  width: 500px;
+}
+
+.right{
+  position: absolute;
+  right: 0px;
+  width: 500px;
+}
+
 
    .hero{
      height: 100vh;
@@ -146,26 +158,52 @@ h2{
    }
 
    .logicavatar{
+     margin: 15px;
    }
 
-   .linksbox{
-     width: 90%;
+   .linksboxleft{
+     width: 80%;
      display: flex;
      justify-content: center;
      align-items: center;
      flex-direction: column;
      margin: 0 auto;
+     text-align: start;
+    
 
    }
 
-   .linksbox a{
+   .linksboxright{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: right;
+    padding: 10px 0px 10px 25px;
+  }
+
+   .linksboxleft a{
+    padding: 1%;
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    background-color: #E6EB12;
+    padding: 10px 0px 10px 15px;
+    margin: 2%;
+    width: 100%;
+   }
+
+   .linksboxright a{
      padding: 1%;
      font-size: 30px;
      color: #000;
      text-decoration: none;
      background-color: #E6EB12;
-     padding: 5px;
-     margin: 3%;
+     padding: 10px 15px 10px 0px;
+     margin: 2%;
+     width: 100%;
    }
 
    .logicavatar img{
@@ -179,15 +217,17 @@ h2{
      width: 90%;
      display: flex;
      align-items: right;
-     margin: 0 auto;
+     margin: 100px;
      flex-direction: column;
    }
 
     .about h2{
       font-family: 'Actor', Regular;
-      font-size: 70px
+      font-size: 70px;
       color:#000;
       text-align: right;
+      position: absolute;
+      right: 0px;
     }
 
     .music h2{
@@ -202,7 +242,7 @@ h2{
       width: 90%;
       display: flex;
       align-items: left;
-      margin: 0 auto;
+      margin: 100px;
       flex-direction: column;
     }
 
@@ -218,7 +258,7 @@ h2{
       width: 90%;
       display: flex;
       align-items: right;
-      margin: 0 auto;
+      margin: 100px;
       flex-direction: column;
     }
 
@@ -235,7 +275,7 @@ h2{
       width: 90%;
       display: flex;
       align-items: left;
-      margin: 0 auto;
+      margin: 100px;
       flex-direction: column;
     }
 
