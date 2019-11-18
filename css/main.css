@@ -15,6 +15,8 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /*
@@ -108,6 +110,12 @@ h2{
   padding: 5px;
 }
 
+p{
+  font-size: 18px;
+  line-height: 2rem;
+}
+
+
 .logicshadow{
   box-shadow: 15px 15px rgba(142,220,254,1);
 }
@@ -169,8 +177,6 @@ h2{
      flex-direction: column;
      margin: 0 auto;
      text-align: start;
-    
-
    }
 
    .linksboxright{
@@ -190,9 +196,9 @@ h2{
     color: #000;
     text-decoration: none;
     background-color: #E6EB12;
-    padding: 10px 0px 10px 15px;
+    padding: 10px 15px 10px 35px;
     margin: 2%;
-    width: 100%;
+    width: 90%;
    }
 
    .linksboxright a{
@@ -201,9 +207,15 @@ h2{
      color: #000;
      text-decoration: none;
      background-color: #E6EB12;
-     padding: 10px 15px 10px 0px;
+     padding: 10px 35px 10px 15px;
      margin: 2%;
-     width: 100%;
+     width: 90%;
+   }
+
+   .linksboxleft a:hover,
+   .linksboxright a:hover{
+     background-color: #0028b9;
+     color: #fff;
    }
 
    .logicavatar img{
@@ -219,6 +231,8 @@ h2{
      align-items: right;
      margin: 100px;
      flex-direction: column;
+     position: relative;
+
    }
 
     .about h2{
@@ -244,6 +258,8 @@ h2{
       align-items: left;
       margin: 100px;
       flex-direction: column;
+      position: relative;
+      top: 100px;
     }
 
     .record_lable h2{
@@ -260,6 +276,8 @@ h2{
       align-items: right;
       margin: 100px;
       flex-direction: column;
+      position: relative;
+      top: 100px;
     }
 
 
@@ -271,13 +289,16 @@ h2{
 
     }
 
-    .tours{
+    .tours {
       width: 90%;
       display: flex;
-      align-items: left;
-      margin: 100px;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
       flex-direction: column;
-    }
+      position: relative;
+      top: 150px;
+  }
 
     table{
       width: 80%;
@@ -320,7 +341,7 @@ h2{
 
     .shopping h2{
       font-family: 'Actor', Regular;
-      font-size: 70px
+      font-size: 70px; 
       color:#000;
       text-align: left;
 
