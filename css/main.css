@@ -220,19 +220,23 @@ p{
 
    .logicavatar img{
      	border-radius: 50%;
-      width: 395px;
-      height: 415px;
+      width: 400px;
+      height: 400px;
        margin: 5% 0 5% 0;
    }
 
-   .about{
-     width: 90%;
-     display: flex;
-     align-items: right;
-     margin: 100px;
-     flex-direction: column;
-     position: relative;
+   .largesection {
+       width: 100%;
+       flex-direction: column;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
 
+   .largesection p{
+     width: 90%;
+     margin: 8%;
    }
 
     .about h2{
@@ -301,7 +305,7 @@ p{
   }
 
     table{
-      width: 80%;
+      width: 65%;
       border: none;
       border-collapse: collapse;
     }
@@ -341,7 +345,7 @@ p{
 
     .shopping h2{
       font-family: 'Actor', Regular;
-      font-size: 70px; 
+      font-size: 70px;
       color:#000;
       text-align: left;
 
@@ -362,6 +366,47 @@ p{
     border: 0px !important;
     }
 
+    .album_slider{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      width: 50%;
+      height: 500px;
+      flex-direction: row;
+    }
+
+    .mySlides {display:none;}
+
+    button.w3-button.w3-black.w3-display-left {
+    top: -155px;
+    position: relative;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background-color: #8EDCFE;
+    border: none;
+}
+
+button.w3-button.w3-black.w3-display-right {
+    top: -155px;
+    position: relative;
+    left: 296px;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background-color: #8EDCFE;
+    border: none;
+}
+
+button.w3-button.w3-black.w3-display-left:hover,
+button.w3-button.w3-black.w3-display-right:hover{
+  background-color: #E6EB12;
+  color: #000;
+
+}
+
     .albums{
       width: 400px;
       height: 400px;
@@ -370,6 +415,10 @@ p{
     .albums img{
       width: 400px;
       height: auto;
+    }
+
+    .albums h3{
+      text-align: center;
     }
 
     .leftside{
@@ -475,9 +524,102 @@ p{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+
+   /* On screens that are 900px wide or less */
+   @media screen and (max-width: 900px) {
+
+.links{
+  margin: 0 0 2% 0;
 }
+
+.linksboxleft {
+  position: relative;
+  left: -10px;
+}
+
+.linksboxleft a {
+  font-size: 20px;
+  width: 70%;
+  position: relative;
+  left: -10px;
+}
+
+.linksboxright {
+  position: relative;
+  left: 12px;
+}
+
+.linksboxright a {
+  font-size: 20px;
+  width: 70%;
+  position: relative;
+  left: 12px;
+}
+
+.logicavatar img{
+   border-radius: 50%;
+   width: 300px;
+   height: 300px;
+    margin: 5% 0 5% 0;
+}
+
+   }
+
+   /* On screens that are 768px wide or less */
+   @media screen and (max-width: 768px) {
+     .hero h1 {
+    font-size: 150px;
+}
+
+.logicavatar img{
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+    margin: 5% 0 5% 0;
+}
+
+   }
+
+   /* On screens that are 550px wide or less */
+   @media screen and (max-width: 550px) {
+     .hero h1 {
+    font-size: 130px;
+}
+
+.linksboxright {
+  position: relative;
+  left: 0px;
+}
+
+.linksboxleft {
+  position: relative;
+  left: 0px;
+}
+
+.linksboxright a,
+.linksboxleft a {
+font-size: 16px;
+}
+
+   }
+
+   /* On screens that are 450px wide or less */
+   @media screen and (max-width: 450px) {
+     .hero h1 {
+    font-size: 110px;
+}
+
+
+   }
+
+   /* On screens that are 300px wide or less */
+   @media screen and (max-width: 300px) {
+
+   }
+
+
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
